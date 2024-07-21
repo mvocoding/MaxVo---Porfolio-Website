@@ -125,7 +125,7 @@ export const projectList: ProjectItem[] = [
             images: ['images/text-to-video.png'],
             git: 'https://github.com/MaxvoDev/Python---Text-to-Video-using-AI-Voice-with-GUI'
         },
-        tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TAILWIND' }]
+        tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TEST' }]
     },
     {
         name: 'Agecare Shift Sniper',
