@@ -54,7 +54,7 @@ export const LiveProjects = ({ }) => {
             <Modal.Header className="flex gap-3">
                 <h2 className="text-center text-xl text-[#0f0]">Live Projects</h2>
             </Modal.Header>
-            <Modal.Body className="grid grid-cols-3 gap-3 ">
+            <Modal.Body className="grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] [grid-auto-rows:1fr] gap-3 ">
                 {submissionData?.map((submission, index) => (
                     <div key={index}>
                         <section className="aspect-video relative overflow-hidden">
