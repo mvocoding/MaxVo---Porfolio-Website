@@ -29,7 +29,7 @@ function App() {
 
       {currentModal && (modalsList[currentModal].component)}
       
-      <ThemeSwitcher className={`[grid-area:settings]`} />
+      <ThemeSwitcher className={`max-sm:hidden [grid-area:settings]`} />
     </div>
   )
 }

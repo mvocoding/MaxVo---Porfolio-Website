@@ -21,8 +21,8 @@ interface TabContentProps {
 }
 
 const TabContent: React.FC<TabContentProps> = ({ content, isActive }) => (
-    <div className={twMerge('absolute w-full top-0 p-5 transition-all duration-300 space-y-2 leading-6 text-sm',
-        isActive ? 'left-0' : 'left-[1000px]'
+    <div className={twMerge('absolute w-full top-0 p-5 transition-all duration-300 space-y-2 leading-6 text-sm h-full',
+        isActive ? ' left-0 visible ' : ' left-[1000px] invisible '
     )}>{content}</div>
 )
 
@@ -36,7 +36,7 @@ export const Tab: React.FC<Props> = ({ tabsList, className }) => {
         <div className={twMerge(`grid grid-rows-[auto_1fr] h-full `,
             className
         )}>
-            <div className={`grid grid-cols-${tabsList.length}
+            <div className={`grid grid-cols-${tabsList.length} 
                     *:border-b-0 *:
                 `}>
                 {tabsList.map((tab, index) => (
