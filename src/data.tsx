@@ -76,7 +76,7 @@ export const modalsList: Record<string, ModalItem> = {
 export const personalDetails: Record<string, string> = {
     fullname: 'Minh Quoc Vo',
     title: 'Web Developer',
-    avatar: 'images/avatar.png',
+    avatar: 'public/images/avatar.png',
     aboutme: `Hi, my name is Max Vo, currently residing in Adelaide, South Australia. I have a strong passion for web development technologies and specialize in software development frameworks such as React, ASP .NET Core.
     Originally from Vietnam, I have accumulated over 3 years of experience as a Software Developer. Since arriving in Australia, I am eager to resume my career in software development. I have completed my Computer Science degree and am set to finish my Master's degree in November 2025.
     I am actively seeking an internship where I can apply my previous experience and current learning to contribute to impactful projects. You can explore my ongoing projects and daily coding activities to get a sense of my work and commitment.
@@ -172,7 +172,7 @@ export const experiences: ProgressItem[] = [
         quality and adherence to design standards. Translated UI / UX designs wireframes from Figma into functional front-end code.
         • Engineered fully responsive, user-friendly web applications using tools such as JavaScript frameworks for ReactJS, AngularJS.
         • Constructed various Angular Libraries for the development team to use in different projects.`,
-        image: 'images/dxc.png',
+        image: 'public/images/dxc.png',
         tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TAILWIND' }]
     },
     {
@@ -188,7 +188,7 @@ export const experiences: ProgressItem[] = [
         • Implementing front-end functionalities for permissions management and report statistics, providing administrators and
         stakeholders with comprehensive insights and functionality.
         • Optimized the old codebase, resulting in a 20% increase in website speed.`,
-        image: 'images/starfish.png',
+        image: 'public/images/starfish.png',
         tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TAILWIND' }]
     },
     // {
@@ -214,7 +214,7 @@ export const educationDetails: ProgressItem[] = [
         • Participated in various software development projects, working both individually and as part of a team.
         • Conducted research on software development methodologies and best practices.
         • Graduated with a Bachelor's degree in Software Engineering.`,
-        image: 'images/khtn.png'
+        image: 'public/images/khtn.png'
     },
     {
         title: 'Software Engineering Courses',
@@ -224,7 +224,7 @@ export const educationDetails: ProgressItem[] = [
         • Learned advanced programming techniques, software design principles, and project management skills.
         • Engaged in practical projects and assignments to apply theoretical knowledge.
         • Gained certifications in key areas of software engineering and development.`,
-        image: 'images/coursera.png'
+        image: 'public/images/coursera.png'
     },
     {
         title: 'Master of Information Technology',
@@ -234,6 +234,6 @@ export const educationDetails: ProgressItem[] = [
         • Engaging in in-depth coursework and hands-on projects to enhance software development skills.
         • Collaborating with peers and faculty on research initiatives and practical applications.
         • Gaining expertise in software design, development, and implementation.`,
-        image: 'images/torrens.png'
+        image: 'public/images/torrens.png'
     },
 ];
