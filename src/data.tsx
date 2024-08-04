@@ -17,14 +17,14 @@ export const modalsList: Record<string, ModalItem> = {
         img: 'images/start-icon.png',
         component: <AboutMe />
     },
-    // 'mycv': {
-    //     name: 'mycv',
-    //     shortcut: 'My CV',
-    //     text: 'My CV',
-    //     show: true,
-    //     img: 'images/cv.png',
-    //     component: <MyCV />
-    // },
+    'mycv': {
+        name: 'mycv',
+        shortcut: 'My CV',
+        text: 'My CV',
+        show: true,
+        img: 'images/cv.png',
+        component: <MyCV />
+    },
     'experience': {
         name: 'experience',
         shortcut: 'Experience',

@@ -57,7 +57,7 @@ export const LiveProjects = ({ }) => {
     return (
         <Modal>
             <Modal.Header className="flex gap-3">
-                <h2 className="text-center text-xl text-[#0f0]">aaaLive Projects</h2>
+                <h2 className="text-center text-xl text-[#0f0]">Live Projects</h2>
             </Modal.Header>
             <Modal.Body className="grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] [grid-auto-rows:1fr] gap-3 ">
                 {submissionData?.map((submission, index) => (
