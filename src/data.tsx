@@ -173,7 +173,18 @@ export const experiences: ProgressItem[] = [
         • Engineered fully responsive, user-friendly web applications using tools such as JavaScript frameworks for ReactJS, AngularJS.
         • Constructed various Angular Libraries for the development team to use in different projects.`,
         image: 'images/dxc.png',
-        tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TAILWIND' }]
+        tags: [
+            { text: 'JAVASCRIPT' },
+            { text: 'TYPESCRIPT' },
+            { text: 'REACT' },
+            { text: 'ANGULAR' },
+            { text: 'HTML' },
+            { text: 'CSS' },
+            { text: 'SASS' },
+            { text: 'GIT' },
+            { text: 'CI/CD' },
+            { text: 'JIRA' }
+          ]
     },
     {
         title: 'Web Developer',
@@ -189,18 +200,19 @@ export const experiences: ProgressItem[] = [
         stakeholders with comprehensive insights and functionality.
         • Optimized the old codebase, resulting in a 20% increase in website speed.`,
         image: 'images/starfish.png',
-        tags: [{ text: 'HTML' }, { text: 'CSS' }, { text: 'TAILWIND' }]
-    },
-    // {
-    //     title: 'Freelance Work & Travel',
-    //     time: 'Adelaide - Australia, Oct 2022 - Present',
-    //     subtitle: 'Freelancer',
-    //     fullDesc: `• Joined freelancer platforms and worked remotely as a developer during my working holiday in Australia.
-    //     • Specialized in creating bots, web applications, and occasional smart contracts in Solidity.
-    //     • Enjoyed the flexibility of remote work, balancing professional commitments with exploration and experiences in Australia.`,
-    //     image: 'images/upwork.png',
-    //     tags: ['HTML', 'CSS', 'Javascript', 'ReactJS', 'Angular', 'SiteCore']
-    // }
+        tags: [
+            { text: 'NODEJS' },
+            { text: 'JAVASCRIPT' },
+            { text: 'TYPESCRIPT' },
+            { text: 'REACT' },
+            { text: 'ANGULAR' },
+            { text: 'HTML' },
+            { text: 'CSS' },
+            { text: 'GIT' },
+            { text: 'CI/CD' },
+            { text: 'JIRA' }
+          ]
+    }
 ]
 
 
@@ -215,16 +227,6 @@ export const educationDetails: ProgressItem[] = [
         • Conducted research on software development methodologies and best practices.
         • Graduated with a Bachelor's degree in Software Engineering.`,
         image: 'images/khtn.png'
-    },
-    {
-        title: 'Software Engineering Courses',
-        time: 'Online, May 2022 – Aug 2022',
-        subtitle: 'Coursera',
-        fullDesc: `• Completed numerous courses in Software Engineering, expanding knowledge in various domains.
-        • Learned advanced programming techniques, software design principles, and project management skills.
-        • Engaged in practical projects and assignments to apply theoretical knowledge.
-        • Gained certifications in key areas of software engineering and development.`,
-        image: 'images/coursera.png'
     },
     {
         title: 'Master of Information Technology',
