@@ -18,7 +18,7 @@ export const ModalProvider = ({ children }: ModalProviderProps) => {
     const [params, setParams] = useState<Record<string, any> | null>({
         submodal: false
     });
-    const [currentModal, setCurrentModal] = useState<string | null>('mycv');
+    const [currentModal, setCurrentModal] = useState<string | null>('aboutme');
     const [lastModal, setLastModal] = useState<string | null>(null);
 
     const openModal = (value: string,  params: Record<string, any> = {}, submodal: boolean = false) => {

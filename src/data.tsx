@@ -1,10 +1,9 @@
 import AboutMe from "./AboutMe";
+import { AutoLinkOpener } from "./AutoLinkOpener";
 import { CodePreview } from "./CodePreview";
-import Education from "./Education";
 import Experience from "./Experience";
 import { LiveProjects } from "./LiveProjects";
 import { ModalItem, ProgressItem, ProjectItem } from "./model";
-import MyCV from "./MyCV";
 import { Project } from "./Project";
 import { ProjectDetail } from "./ProjectDetail";
 
@@ -17,29 +16,13 @@ export const modalsList: Record<string, ModalItem> = {
         img: 'images/start-icon.png',
         component: <AboutMe />
     },
-    'mycv': {
-        name: 'mycv',
-        shortcut: 'My CV',
-        text: 'My CV',
+    'timeline': {
+        name: 'timeline',
+        shortcut: 'Timeline',
         show: true,
-        img: 'images/cv.png',
-        component: <MyCV />
-    },
-    'experience': {
-        name: 'experience',
-        shortcut: 'Experience',
-        show: true,
-        text: 'Experience',
+        text: 'Timeline',
         img: 'images/about-icon.png',
         component: <Experience />
-    },
-    'education': {
-        name: 'education',
-        shortcut: 'Education',
-        show: true,
-        text: 'Education',
-        img: 'images/education.png',
-        component: <Education />
     },
     'sideprojects': {
         name: 'sideprojects',
@@ -55,7 +38,7 @@ export const modalsList: Record<string, ModalItem> = {
         show: true,
         text: 'Daily Coding',
         img: 'images/folder-icon.png',
-        component: <LiveProjects /> 
+        component: <LiveProjects />
     },
     'codepreview': {
         name: 'codepreview',
@@ -71,6 +54,22 @@ export const modalsList: Record<string, ModalItem> = {
         img: 'images/projects-icon.png',
         component: <ProjectDetail />
     },
+    'linkedin': {
+        name: 'linkedin',
+        show: true,
+        shortcut: 'LinkedIn',
+        text: 'linkedin',
+        img: 'images/linkedin.svg',
+        component: <AutoLinkOpener url="https://www.linkedin.com/in/max-vo/"></AutoLinkOpener>
+    },
+    'codemax': {
+        name: 'codemax',
+        shortcut: 'CodeMax',
+        show: true,
+        text: 'codemax',
+        img: 'images/codemax.png',
+        component: <AutoLinkOpener url="https://codemax.dev/"></AutoLinkOpener>
+    }
 };
 
 export const personalDetails: Record<string, string> = {
@@ -165,7 +164,18 @@ export const projectList: ProjectItem[] = [
 
 export const experiences: ProgressItem[] = [
     {
-        title: 'Junior Web Developer',
+        title: 'Bachelor of Software Engineering',
+        time: 'Ho Chi Minh City, Vietnam, Sep 2013 – Jun 2017',
+        subtitle: 'VNUHCM - University of Science',
+        fullDesc: `• Completed a comprehensive program in Software Engineering, gaining strong theoretical and practical knowledge.
+        • Developed a solid foundation in programming languages such as Java, C++, and Python.
+        • Participated in various software development projects, working both individually and as part of a team.
+        • Conducted research on software development methodologies and best practices.
+        • Graduated with a Bachelor's degree in Software Engineering.`,
+        image: 'images/khtn.png'
+    },
+    {
+        title: 'Front-End Web Developer',
         time: 'Viet Nam, Sep 2018 – Nov 2019',
         subtitle: 'DXC Technology',
         fullDesc: `• Collaborated closely with cross-functional teams to translate UI/UX designs into functional front-end code, maintaining code
@@ -184,7 +194,7 @@ export const experiences: ProgressItem[] = [
             { text: 'GIT' },
             { text: 'CI/CD' },
             { text: 'JIRA' }
-          ]
+        ]
     },
     {
         title: 'Web Developer',
@@ -211,22 +221,7 @@ export const experiences: ProgressItem[] = [
             { text: 'GIT' },
             { text: 'CI/CD' },
             { text: 'JIRA' }
-          ]
-    }
-]
-
-
-export const educationDetails: ProgressItem[] = [
-    {
-        title: 'Bachelor of Software Engineering',
-        time: 'Ho Chi Minh City, Vietnam, Sep 2013 – Jun 2017',
-        subtitle: 'VNUHCM - University of Science',
-        fullDesc: `• Completed a comprehensive program in Software Engineering, gaining strong theoretical and practical knowledge.
-        • Developed a solid foundation in programming languages such as Java, C++, and Python.
-        • Participated in various software development projects, working both individually and as part of a team.
-        • Conducted research on software development methodologies and best practices.
-        • Graduated with a Bachelor's degree in Software Engineering.`,
-        image: 'images/khtn.png'
+        ]
     },
     {
         title: 'Master of Information Technology',
@@ -238,4 +233,4 @@ export const educationDetails: ProgressItem[] = [
         • Gaining expertise in software design, development, and implementation.`,
         image: 'images/torrens.png'
     },
-];
+]
