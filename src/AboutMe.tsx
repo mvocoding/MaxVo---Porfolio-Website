@@ -14,7 +14,7 @@ export default function AboutMe() {
             content:
                 <div className="flex flex-col h-full">
                     <div className="flex items-center justify-center mb-5">
-                        <video className="w-full md:w-[50%] max-h-[22rem] object-cover object-center" controls poster="/thumbnail.png">
+                        <video className="w-full md:w-[50%] max-h-[25rem] object-cover object-center" controls poster="/thumbnail.png">
                             <source src="/resume-video.mp4" type="video/mp4" />
                         </video>
                     </div>
