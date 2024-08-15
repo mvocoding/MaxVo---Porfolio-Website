@@ -165,7 +165,7 @@ export const projectList: ProjectItem[] = [
 export const experiences: ProgressItem[] = [
     {
         title: 'Bachelor of Software Engineering',
-        time: 'Ho Chi Minh City, Vietnam, Sep 2013 – Jun 2017',
+        time: 'Vietnam, 2013 – 2017',
         subtitle: 'VNUHCM - University of Science',
         fullDesc: `• Completed a comprehensive program in Software Engineering, gaining strong theoretical and practical knowledge.
         • Developed a solid foundation in programming languages such as Java, C++, and Python.
@@ -176,7 +176,7 @@ export const experiences: ProgressItem[] = [
     },
     {
         title: 'Front-End Web Developer',
-        time: 'Viet Nam, Sep 2018 – Nov 2019',
+        time: 'Viet Nam, 2018 – 2019',
         subtitle: 'DXC Technology',
         fullDesc: `• Collaborated closely with cross-functional teams to translate UI/UX designs into functional front-end code, maintaining code
         quality and adherence to design standards. Translated UI / UX designs wireframes from Figma into functional front-end code.
@@ -198,7 +198,7 @@ export const experiences: ProgressItem[] = [
     },
     {
         title: 'Web Developer',
-        time: 'Viet Nam, Jan 2020 – May 2022',
+        time: 'Viet Nam, 2020 – 2022',
         subtitle: 'Starfish Software Company Limited',
         fullDesc: `• Worked collaboratively with a team of 10 developers in the design and development of the front-end aspects of an online
         crime reporting website with future support for multitenancy.
@@ -225,7 +225,7 @@ export const experiences: ProgressItem[] = [
     },
     {
         title: 'Master of Information Technology',
-        time: 'Adelaide, Australia, Jan 2024 – Present',
+        time: 'Adelaide, 2024 – Present',
         subtitle: 'Torrens University Australia',
         fullDesc: `• Pursuing advanced studies in Computer Software Engineering, focusing on cutting-edge technologies and methodologies.
         • Engaging in in-depth coursework and hands-on projects to enhance software development skills.
